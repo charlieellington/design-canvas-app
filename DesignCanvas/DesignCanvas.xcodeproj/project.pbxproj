@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354C65A708EF1276ACEBFBF2 /* OnboardingCardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A1BED9997B7D0DEBD74420 /* OnboardingCardState.swift */; };
+		63ED553FDF99881980CE97C3 /* DemoModeRibbon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7F49F93D02619D4BE1189 /* DemoModeRibbon.swift */; };
+		8038E69DF1E6223F717EA905 /* OnboardingCardStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE5D1F317E241999B9983BB /* OnboardingCardStateTests.swift */; };
+		Y10000000000000000000008 /* OnboardingPasteString.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000008 /* OnboardingPasteString.swift */; };
+		Y10000000000000000000002 /* PasteboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000002 /* PasteboardService.swift */; };
+		Y10000000000000000000003 /* MCPActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000003 /* MCPActivityDetector.swift */; };
+		Y10000000000000000000004 /* DemoConnectPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000004 /* DemoConnectPanel.swift */; };
+		Y10000000000000000000005 /* DevServerWelcomeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000005 /* DevServerWelcomeBox.swift */; };
+		Y10000000000000000000006 /* PasteModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000006 /* PasteModal.swift */; };
+		Y10000000000000000000007 /* MCPActivityDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000007 /* MCPActivityDetectorTests.swift */; };
+		A10000000000000000000001 /* DesignCanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* DesignCanvasApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* WebViewCoordinator.swift */; };
+		A10000000000000000000004 /* WebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* WebViewWrapper.swift */; };
+		A10000000000000000000005 /* CanvasCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CanvasCamera.swift */; };
+		A10000000000000000000006 /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* DocumentModel.swift */; };
+		A10000000000000000000007 /* RouteFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* RouteFrame.swift */; };
+		X10000000000000000000001 /* MarkdownFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = X20000000000000000000001 /* MarkdownFrame.swift */; };
+		Y10000000000000000000001 /* ImageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = Y20000000000000000000001 /* ImageFrame.swift */; };
+		Z10000000000000000000001 /* ImageDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = Z20000000000000000000001 /* ImageDimensions.swift */; };
+		X10000000000000000000002 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = X20000000000000000000002 /* MarkdownRenderer.swift */; };
+		X10000000000000000000003 /* MarkdownRenderer in Resources */ = {isa = PBXBuildFile; fileRef = X20000000000000000000004 /* MarkdownRenderer */; };
+		X10000000000000000000005 /* MarkdownTileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = X20000000000000000000005 /* MarkdownTileManager.swift */; };
+		MH10000000000000000000001 /* MarkdownPathHealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = MH20000000000000000000001 /* MarkdownPathHealer.swift */; };
+		A10000000000000000000008 /* InteractionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* InteractionRouter.swift */; };
+		A10000000000000000000009 /* TileLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* TileLifecycle.swift */; };
+		A1000000000000000000000A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* WebKit.framework */; };
+		A1000000000000000000000B /* CanvasContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* CanvasContainerView.swift */; };
+		A1000000000000000000000C /* CanvasDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* CanvasDocumentView.swift */; };
+		A1000000000000000000000D /* CanvasScrollCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* CanvasScrollCoordinator.swift */; };
+		A1000000000000000000000E /* CanvasFrameContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* CanvasFrameContainer.swift */; };
+		A1000000000000000000000F /* WebKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* WebKitConfig.swift */; };
+		A10000000000000000000010 /* InteractionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* InteractionOverlay.swift */; };
+		A10000000000000000000011 /* EventInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* EventInterceptor.swift */; };
+		A10000000000000000000012 /* FrameMetricsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* FrameMetricsHandler.swift */; };
+		A10000000000000000000013 /* FrameContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* FrameContextMenu.swift */; };
+		A10000000000000000000014 /* ScreenshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* ScreenshotService.swift */; };
+		A10000000000000000000015 /* ScreenshotFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* ScreenshotFrameView.swift */; };
+		B10000000000000000000001 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = B30000000000000000000001 /* Swifter */; };
+		B10000000000000000000002 /* HTTPAPIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* HTTPAPIServer.swift */; };
+		B10000000000000000000003 /* CanvasManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* CanvasManager.swift */; };
+		C10000000000000000000001 /* DevServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* DevServerManager.swift */; };
+		CC10000000000000000000001 /* CanvasChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC20000000000000000000001 /* CanvasChip.swift */; };
+		DS10000000000000000000001 /* DevServerPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DS20000000000000000000001 /* DevServerPill.swift */; };
+		DS10000000000000000000002 /* DevServerPillPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = DS20000000000000000000002 /* DevServerPillPopover.swift */; };
+		SB10000000000000000000001 /* ServerBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = SB20000000000000000000001 /* ServerBinding.swift */; };
+		SB10000000000000000000002 /* DevServerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = SB20000000000000000000002 /* DevServerRegistry.swift */; };
+		PR10000000000000000000001 /* PortRebindToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = PR20000000000000000000001 /* PortRebindToast.swift */; };
+		PR10000000000000000000002 /* PortRebindMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = PR20000000000000000000002 /* PortRebindMatcher.swift */; };
+		CV10000000000000000000001 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CV20000000000000000000001 /* Canvas.swift */; };
+		CV10000000000000000000002 /* CanvasSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CV20000000000000000000002 /* CanvasSwitcher.swift */; };
+		CS10000000000000000000001 /* CanvasSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CS20000000000000000000001 /* CanvasSection.swift */; };
+		CS10000000000000000000002 /* CanvasSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CS20000000000000000000002 /* CanvasSectionView.swift */; };
+		C10000000000000000000003 /* CanvasSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* CanvasSpinner.swift */; };
+		D10000000000000000000001 /* RouteDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* RouteDiscovery.swift */; };
+		D86BF11BBDAE71167A444F9B /* DemoWatermarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E9B6FFB0479A2AC9D94F4 /* DemoWatermarkOverlay.swift */; };
+		E10000000000000000000001 /* FileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000001 /* FileWatcher.swift */; };
+		F10000000000000000000001 /* InteractHintCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000001 /* InteractHintCoordinator.swift */; };
+		F10000000000000000000002 /* InteractHintToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000000000000000000002 /* InteractHintToast.swift */; };
+		G10000000000000000000001 /* FloatingToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000001 /* FloatingToolbar.swift */; };
+		G10000000000000000000002 /* ZoomIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000002 /* ZoomIndicator.swift */; };
+		G10000000000000000000003 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000003 /* EmptyStateView.swift */; };
+		G10000000000000000000004 /* HintCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = G20000000000000000000004 /* HintCard.swift */; };
+		H10000000000000000000001 /* CommandPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000001 /* CommandPalette.swift */; };
+		H10000000000000000000002 /* CommandPaletteState.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000002 /* CommandPaletteState.swift */; };
+		TC10000000000000000000001 /* TerminalCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = TC20000000000000000000001 /* TerminalCommand.swift */; };
+		TC10000000000000000000002 /* TerminalCommandsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = TC20000000000000000000002 /* TerminalCommandsStore.swift */; };
+		TC10000000000000000000004 /* TerminalCommandsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = TC20000000000000000000004 /* TerminalCommandsPopover.swift */; };
+		H10000000000000000000003 /* CommandPaletteMarkdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000003 /* CommandPaletteMarkdownPicker.swift */; };
+		H10000000000000000000004 /* CommandPaletteImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = H20000000000000000000004 /* CommandPaletteImagePicker.swift */; };
+		U10000000000000000000001 /* WorkspaceFileIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = U20000000000000000000001 /* WorkspaceFileIndex.swift */; };
+		J10000000000000000000001 /* CanvasState.swift in Sources */ = {isa = PBXBuildFile; fileRef = J20000000000000000000001 /* CanvasState.swift */; };
+		J10000000000000000000002 /* SessionPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = J20000000000000000000002 /* SessionPersistence.swift */; };
+		K10000000000000000000001 /* PortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = K20000000000000000000001 /* PortScanner.swift */; };
+		K10000000000000000000004 /* PortProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = K20000000000000000000004 /* PortProbe.swift */; };
+		K10000000000000000000002 /* WorkspaceSwitcherState.swift in Sources */ = {isa = PBXBuildFile; fileRef = K20000000000000000000002 /* WorkspaceSwitcherState.swift */; };
+		K10000000000000000000003 /* WorkspaceSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = K20000000000000000000003 /* WorkspaceSwitcher.swift */; };
+		L10000000000000000000001 /* NewServerDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20000000000000000000001 /* NewServerDetector.swift */; };
+		L10000000000000000000002 /* NewServerToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = L20000000000000000000002 /* NewServerToast.swift */; };
+		M10000000000000000000001 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = M20000000000000000000001 /* FileLogger.swift */; };
+		N10000000000000000000001 /* RoutePathHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000001 /* RoutePathHelpers.swift */; };
+		N10000000000000000000002 /* NextAppRouterAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000002 /* NextAppRouterAdapter.swift */; };
+		N10000000000000000000003 /* NextPagesRouterAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000003 /* NextPagesRouterAdapter.swift */; };
+		N10000000000000000000004 /* TanStackRouterAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000004 /* TanStackRouterAdapter.swift */; };
+		N10000000000000000000005 /* RemixRouterAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000005 /* RemixRouterAdapter.swift */; };
+		N10000000000000000000006 /* SvelteKitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000006 /* SvelteKitAdapter.swift */; };
+		N10000000000000000000007 /* NuxtAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000007 /* NuxtAdapter.swift */; };
+		N10000000000000000000008 /* AstroAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = N20000000000000000000008 /* AstroAdapter.swift */; };
+		O10000000000000000000001 /* MCPConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = O20000000000000000000001 /* MCPConnectionState.swift */; };
+		O10000000000000000000002 /* MCPSetupSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = O20000000000000000000002 /* MCPSetupSheet.swift */; };
+		P10000000000000000000001 /* UpdaterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = P20000000000000000000001 /* UpdaterManager.swift */; };
+		P10000000000000000000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = P20000000000000000000002 /* Assets.xcassets */; };
+		P10000000000000000000003 /* CrashReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = P20000000000000000000003 /* CrashReporter.swift */; };
+		Q10000000000000000000001 /* DemoScreenshots in Resources */ = {isa = PBXBuildFile; fileRef = Q20000000000000000000001 /* DemoScreenshots */; };
+		R10000000000000000000001 /* RouteSuggestionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = R20000000000000000000001 /* RouteSuggestionBanner.swift */; };
+		S10000000000000000000001 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = S30000000000000000000001 /* Sparkle */; };
+		T10000000000000000000001 /* CanvasCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000001 /* CanvasCameraTests.swift */; };
+		T10000000000000000000002 /* DocumentModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000002 /* DocumentModelTests.swift */; };
+		T10000000000000000000003 /* RouteFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000003 /* RouteFrameTests.swift */; };
+		T10000000000000000000004 /* WorkspaceFileIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000004 /* WorkspaceFileIndexTests.swift */; };
+		MH10000000000000000000002 /* MarkdownPathHealerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = MH20000000000000000000002 /* MarkdownPathHealerTests.swift */; };
+		T10000000000000000000005 /* CommandPaletteStateModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000005 /* CommandPaletteStateModeTests.swift */; };
+		T10000000000000000000006 /* ClaudeUsageDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = T20000000000000000000006 /* ClaudeUsageDecoderTests.swift */; };
+		V10000000000000000000001 /* InteractionRouter+Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = V20000000000000000000001 /* InteractionRouter+Selection.swift */; };
+		V10000000000000000000002 /* MarqueeOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = V20000000000000000000002 /* MarqueeOverlayView.swift */; };
+		W10000000000000000000001 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = W20000000000000000000001 /* AnalyticsService.swift */; };
+		CU10000000000000000000001 /* ClaudeAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000001 /* ClaudeAuth.swift */; };
+		CU10000000000000000000007 /* ClaudeAccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000007 /* ClaudeAccountsManager.swift */; };
+		CU10000000000000000000002 /* ClaudeUsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000002 /* ClaudeUsageService.swift */; };
+		CU10000000000000000000003 /* ClaudeUsagePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000003 /* ClaudeUsagePill.swift */; };
+		CU10000000000000000000004 /* ClaudeLoginSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000004 /* ClaudeLoginSheet.swift */; };
+		CU10000000000000000000005 /* ClaudeAccountPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000005 /* ClaudeAccountPopover.swift */; };
+		CU10000000000000000000006 /* ClaudeMenuBarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CU20000000000000000000006 /* ClaudeMenuBarLabel.swift */; };
+		OA10000000000000000000001 /* CodexAppServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OA20000000000000000000001 /* CodexAppServerClient.swift */; };
+		OA10000000000000000000002 /* OpenAIUsageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OA20000000000000000000002 /* OpenAIUsageService.swift */; };
+		OA10000000000000000000003 /* OpenAIUsageMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OA20000000000000000000003 /* OpenAIUsageMenuBar.swift */; };
+		OA10000000000000000000004 /* OpenAIUsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OA20000000000000000000004 /* OpenAIUsageTests.swift */; };
+		SD10000000000000000000001 /* ReloadStormDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = SD20000000000000000000001 /* ReloadStormDetector.swift */; };
+		ST10000000000000000000001 /* StylingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000001 /* StylingConfig.swift */; };
+		ST10000000000000000000002 /* FrameAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000002 /* FrameAnchor.swift */; };
+		ST10000000000000000000003 /* PresetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000003 /* PresetManager.swift */; };
+		ST10000000000000000000004 /* CanvasStylingRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000004 /* CanvasStylingRenderer.swift */; };
+		ST10000000000000000000005 /* FrameChromeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000005 /* FrameChromeRenderer.swift */; };
+		ST10000000000000000000006 /* StylingPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000006 /* StylingPresets.swift */; };
+		ST10000000000000000000007 /* StylingPresets.json in Resources */ = {isa = PBXBuildFile; fileRef = ST20000000000000000000007 /* StylingPresets.json */; };
+		SC10000000000000000000001 /* ScreenshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC20000000000000000000001 /* ScreenshotCache.swift */; };
+		SM10000000000000000000001 /* ShareDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000001 /* ShareDraft.swift */; };
+		SM10000000000000000000002 /* CaptureOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000002 /* CaptureOrchestrator.swift */; };
+		SM10000000000000000000003 /* ShareModeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000003 /* ShareModeCoordinator.swift */; };
+		SM10000000000000000000004 /* ShareModeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000004 /* ShareModeWindow.swift */; };
+		SM10000000000000000000005 /* ShareModePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000005 /* ShareModePill.swift */; };
+		SM10000000000000000000006 /* ShareModeActionCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000006 /* ShareModeActionCluster.swift */; };
+		SM10000000000000000000007 /* RecipientPreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000007 /* RecipientPreviewCard.swift */; };
+		SM10000000000000000000008 /* PostExitShareChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = SM20000000000000000000008 /* PostExitShareChip.swift */; };
+		SU10000000000000000000001 /* ShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SU20000000000000000000001 /* ShareService.swift */; };
+		SU10000000000000000000002 /* ShareUploadOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = SU20000000000000000000002 /* ShareUploadOrchestrator.swift */; };
+		SD10000000000000000000002 /* PausedStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = SD20000000000000000000002 /* PausedStatusCard.swift */; };
+		OS10000000000000000000001 /* BuildPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OS10000000000000000000002 /* BuildPolicy.swift */; };
+		OS20000000000000000000001 /* BuildPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OS20000000000000000000002 /* BuildPolicyTests.swift */; };
+		OS30000000000000000000001 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = OS30000000000000000000002 /* ThirdPartyNotices.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		T90000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = DesignCanvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE7F49F93D02619D4BE1189 /* DemoModeRibbon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DemoModeRibbon.swift; sourceTree = "<group>"; };
+		2EE5D1F317E241999B9983BB /* OnboardingCardStateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingCardStateTests.swift; sourceTree = "<group>"; };
+		Y20000000000000000000008 /* OnboardingPasteString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPasteString.swift; sourceTree = "<group>"; };
+		Y20000000000000000000002 /* PasteboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardService.swift; sourceTree = "<group>"; };
+		Y20000000000000000000003 /* MCPActivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPActivityDetector.swift; sourceTree = "<group>"; };
+		Y20000000000000000000004 /* DemoConnectPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoConnectPanel.swift; sourceTree = "<group>"; };
+		Y20000000000000000000005 /* DevServerWelcomeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServerWelcomeBox.swift; sourceTree = "<group>"; };
+		Y20000000000000000000006 /* PasteModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteModal.swift; sourceTree = "<group>"; };
+		Y20000000000000000000007 /* MCPActivityDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPActivityDetectorTests.swift; sourceTree = "<group>"; };
+		9105F6832F895F1A0050D9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000001 /* DesignCanvasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCanvasApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* WebViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWrapper.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* CanvasCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasCamera.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* RouteFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFrame.swift; sourceTree = "<group>"; };
+		X20000000000000000000001 /* MarkdownFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFrame.swift; sourceTree = "<group>"; };
+		Y20000000000000000000001 /* ImageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFrame.swift; sourceTree = "<group>"; };
+		Z20000000000000000000001 /* ImageDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDimensions.swift; sourceTree = "<group>"; };
+		X20000000000000000000002 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		X20000000000000000000005 /* MarkdownTileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTileManager.swift; sourceTree = "<group>"; };
+		MH20000000000000000000001 /* MarkdownPathHealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPathHealer.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* InteractionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionRouter.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* TileLifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileLifecycle.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A2000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000C /* DesignCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000D /* CanvasContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasContainerView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* CanvasDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasDocumentView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* CanvasScrollCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasScrollCoordinator.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* CanvasFrameContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasFrameContainer.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* WebKitConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitConfig.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* InteractionOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionOverlay.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* EventInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInterceptor.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* FrameMetricsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameMetricsHandler.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* FrameContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameContextMenu.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* ScreenshotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotService.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* ScreenshotFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotFrameView.swift; sourceTree = "<group>"; };
+		A200000000000000000000E0 /* DesignCanvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignCanvas.entitlements; sourceTree = "<group>"; };
+		B20000000000000000000002 /* HTTPAPIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPAPIServer.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* CanvasManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasManager.swift; sourceTree = "<group>"; };
+		C20000000000000000000001 /* DevServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServerManager.swift; sourceTree = "<group>"; };
+		CC20000000000000000000001 /* CanvasChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasChip.swift; sourceTree = "<group>"; };
+		DS20000000000000000000001 /* DevServerPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServerPill.swift; sourceTree = "<group>"; };
+		DS20000000000000000000002 /* DevServerPillPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServerPillPopover.swift; sourceTree = "<group>"; };
+		SB20000000000000000000001 /* ServerBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerBinding.swift; sourceTree = "<group>"; };
+		SB20000000000000000000002 /* DevServerRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServerRegistry.swift; sourceTree = "<group>"; };
+		PR20000000000000000000001 /* PortRebindToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortRebindToast.swift; sourceTree = "<group>"; };
+		PR20000000000000000000002 /* PortRebindMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortRebindMatcher.swift; sourceTree = "<group>"; };
+		CV20000000000000000000001 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		CV20000000000000000000002 /* CanvasSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSwitcher.swift; sourceTree = "<group>"; };
+		CS20000000000000000000001 /* CanvasSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSection.swift; sourceTree = "<group>"; };
+		CS20000000000000000000002 /* CanvasSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSectionView.swift; sourceTree = "<group>"; };
+		C20000000000000000000003 /* CanvasSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSpinner.swift; sourceTree = "<group>"; };
+		C3A1BED9997B7D0DEBD74420 /* OnboardingCardState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingCardState.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* RouteDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDiscovery.swift; sourceTree = "<group>"; };
+		D26E9B6FFB0479A2AC9D94F4 /* DemoWatermarkOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DemoWatermarkOverlay.swift; sourceTree = "<group>"; };
+		E20000000000000000000001 /* FileWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWatcher.swift; sourceTree = "<group>"; };
+		F20000000000000000000001 /* InteractHintCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractHintCoordinator.swift; sourceTree = "<group>"; };
+		F20000000000000000000002 /* InteractHintToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractHintToast.swift; sourceTree = "<group>"; };
+		G20000000000000000000001 /* FloatingToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingToolbar.swift; sourceTree = "<group>"; };
+		G20000000000000000000002 /* ZoomIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomIndicator.swift; sourceTree = "<group>"; };
+		G20000000000000000000003 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		G20000000000000000000004 /* HintCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCard.swift; sourceTree = "<group>"; };
+		H20000000000000000000001 /* CommandPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPalette.swift; sourceTree = "<group>"; };
+		H20000000000000000000002 /* CommandPaletteState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteState.swift; sourceTree = "<group>"; };
+		TC20000000000000000000001 /* TerminalCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalCommand.swift; sourceTree = "<group>"; };
+		TC20000000000000000000002 /* TerminalCommandsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalCommandsStore.swift; sourceTree = "<group>"; };
+		TC20000000000000000000004 /* TerminalCommandsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalCommandsPopover.swift; sourceTree = "<group>"; };
+		H20000000000000000000003 /* CommandPaletteMarkdownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteMarkdownPicker.swift; sourceTree = "<group>"; };
+		H20000000000000000000004 /* CommandPaletteImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteImagePicker.swift; sourceTree = "<group>"; };
+		U20000000000000000000001 /* WorkspaceFileIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceFileIndex.swift; sourceTree = "<group>"; };
+		J20000000000000000000001 /* CanvasState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasState.swift; sourceTree = "<group>"; };
+		J20000000000000000000002 /* SessionPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPersistence.swift; sourceTree = "<group>"; };
+		K20000000000000000000001 /* PortScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanner.swift; sourceTree = "<group>"; };
+		K20000000000000000000004 /* PortProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortProbe.swift; sourceTree = "<group>"; };
+		K20000000000000000000002 /* WorkspaceSwitcherState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceSwitcherState.swift; sourceTree = "<group>"; };
+		K20000000000000000000003 /* WorkspaceSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceSwitcher.swift; sourceTree = "<group>"; };
+		L20000000000000000000001 /* NewServerDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServerDetector.swift; sourceTree = "<group>"; };
+		L20000000000000000000002 /* NewServerToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServerToast.swift; sourceTree = "<group>"; };
+		M20000000000000000000001 /* FileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
+		N20000000000000000000001 /* RoutePathHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePathHelpers.swift; sourceTree = "<group>"; };
+		N20000000000000000000002 /* NextAppRouterAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextAppRouterAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000003 /* NextPagesRouterAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPagesRouterAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000004 /* TanStackRouterAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanStackRouterAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000005 /* RemixRouterAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemixRouterAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000006 /* SvelteKitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvelteKitAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000007 /* NuxtAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuxtAdapter.swift; sourceTree = "<group>"; };
+		N20000000000000000000008 /* AstroAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroAdapter.swift; sourceTree = "<group>"; };
+		O20000000000000000000001 /* MCPConnectionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPConnectionState.swift; sourceTree = "<group>"; };
+		O20000000000000000000002 /* MCPSetupSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCPSetupSheet.swift; sourceTree = "<group>"; };
+		P20000000000000000000001 /* UpdaterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterManager.swift; sourceTree = "<group>"; };
+		P20000000000000000000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		P20000000000000000000003 /* CrashReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReporter.swift; sourceTree = "<group>"; };
+		Q20000000000000000000001 /* DemoScreenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/DemoScreenshots; sourceTree = "<group>"; };
+		X20000000000000000000004 /* MarkdownRenderer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/MarkdownRenderer; sourceTree = "<group>"; };
+		R20000000000000000000001 /* RouteSuggestionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSuggestionBanner.swift; sourceTree = "<group>"; };
+		T20000000000000000000001 /* CanvasCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasCameraTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000002 /* DocumentModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModelTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000003 /* RouteFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFrameTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000004 /* WorkspaceFileIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceFileIndexTests.swift; sourceTree = "<group>"; };
+		MH20000000000000000000002 /* MarkdownPathHealerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPathHealerTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000005 /* CommandPaletteStateModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteStateModeTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000006 /* ClaudeUsageDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeUsageDecoderTests.swift; sourceTree = "<group>"; };
+		T20000000000000000000010 /* DesignCanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		V20000000000000000000001 /* InteractionRouter+Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InteractionRouter+Selection.swift"; sourceTree = "<group>"; };
+		V20000000000000000000002 /* MarqueeOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeOverlayView.swift; sourceTree = "<group>"; };
+		W20000000000000000000001 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		CU20000000000000000000001 /* ClaudeAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAuth.swift; sourceTree = "<group>"; };
+		CU20000000000000000000007 /* ClaudeAccountsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAccountsManager.swift; sourceTree = "<group>"; };
+		CU20000000000000000000002 /* ClaudeUsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeUsageService.swift; sourceTree = "<group>"; };
+		CU20000000000000000000003 /* ClaudeUsagePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeUsagePill.swift; sourceTree = "<group>"; };
+		CU20000000000000000000004 /* ClaudeLoginSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeLoginSheet.swift; sourceTree = "<group>"; };
+		CU20000000000000000000005 /* ClaudeAccountPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAccountPopover.swift; sourceTree = "<group>"; };
+		CU20000000000000000000006 /* ClaudeMenuBarLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeMenuBarLabel.swift; sourceTree = "<group>"; };
+		OA20000000000000000000001 /* CodexAppServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexAppServerClient.swift; sourceTree = "<group>"; };
+		OA20000000000000000000002 /* OpenAIUsageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIUsageService.swift; sourceTree = "<group>"; };
+		OA20000000000000000000003 /* OpenAIUsageMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIUsageMenuBar.swift; sourceTree = "<group>"; };
+		OA20000000000000000000004 /* OpenAIUsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIUsageTests.swift; sourceTree = "<group>"; };
+		SD20000000000000000000001 /* ReloadStormDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadStormDetector.swift; sourceTree = "<group>"; };
+		SD20000000000000000000002 /* PausedStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausedStatusCard.swift; sourceTree = "<group>"; };
+		ST20000000000000000000001 /* StylingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylingConfig.swift; sourceTree = "<group>"; };
+		ST20000000000000000000002 /* FrameAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAnchor.swift; sourceTree = "<group>"; };
+		ST20000000000000000000003 /* PresetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetManager.swift; sourceTree = "<group>"; };
+		ST20000000000000000000004 /* CanvasStylingRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasStylingRenderer.swift; sourceTree = "<group>"; };
+		ST20000000000000000000005 /* FrameChromeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameChromeRenderer.swift; sourceTree = "<group>"; };
+		ST20000000000000000000006 /* StylingPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generated/StylingPresets.swift; sourceTree = "<group>"; };
+		ST20000000000000000000007 /* StylingPresets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/StylingPresets.json; sourceTree = "<group>"; };
+		SC20000000000000000000001 /* ScreenshotCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotCache.swift; sourceTree = "<group>"; };
+		SM20000000000000000000001 /* ShareDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDraft.swift; sourceTree = "<group>"; };
+		SM20000000000000000000002 /* CaptureOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOrchestrator.swift; sourceTree = "<group>"; };
+		SM20000000000000000000003 /* ShareModeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModeCoordinator.swift; sourceTree = "<group>"; };
+		SM20000000000000000000004 /* ShareModeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModeWindow.swift; sourceTree = "<group>"; };
+		SM20000000000000000000005 /* ShareModePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModePill.swift; sourceTree = "<group>"; };
+		SM20000000000000000000006 /* ShareModeActionCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareModeActionCluster.swift; sourceTree = "<group>"; };
+		SM20000000000000000000007 /* RecipientPreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientPreviewCard.swift; sourceTree = "<group>"; };
+		SM20000000000000000000008 /* PostExitShareChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostExitShareChip.swift; sourceTree = "<group>"; };
+		SU20000000000000000000001 /* ShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareService.swift; sourceTree = "<group>"; };
+		SU20000000000000000000002 /* ShareUploadOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUploadOrchestrator.swift; sourceTree = "<group>"; };
+		OS10000000000000000000002 /* BuildPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPolicy.swift; sourceTree = "<group>"; };
+		OS20000000000000000000002 /* BuildPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPolicyTests.swift; sourceTree = "<group>"; };
+		OS30000000000000000000002 /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/ThirdPartyNotices.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000A /* WebKit.framework in Frameworks */,
+				B10000000000000000000001 /* Swifter in Frameworks */,
+				S10000000000000000000001 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T60000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* DesignCanvas */,
+				T40000000000000000000001 /* DesignCanvasTests */,
+				A40000000000000000000007 /* Frameworks */,
+				A40000000000000000000008 /* Products */,
+				9105F6832F895F1A0050D9CA /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* DesignCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* DesignCanvasApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A200000000000000000000E0 /* DesignCanvas.entitlements */,
+				A2000000000000000000000B /* Info.plist */,
+				P20000000000000000000002 /* Assets.xcassets */,
+				Q20000000000000000000001 /* DemoScreenshots */,
+				X20000000000000000000004 /* MarkdownRenderer */,
+				OS30000000000000000000002 /* ThirdPartyNotices.txt */,
+				ST20000000000000000000007 /* StylingPresets.json */,
+				ST20000000000000000000006 /* StylingPresets.swift */,
+				A40000000000000000000003 /* Helpers */,
+				A40000000000000000000004 /* Views */,
+				A40000000000000000000005 /* Models */,
+				A40000000000000000000006 /* Services */,
+			);
+			path = DesignCanvas;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* WebViewCoordinator.swift */,
+				A20000000000000000000011 /* WebKitConfig.swift */,
+				A20000000000000000000014 /* FrameMetricsHandler.swift */,
+				A20000000000000000000015 /* FrameContextMenu.swift */,
+				Z20000000000000000000001 /* ImageDimensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* WebViewWrapper.swift */,
+				A2000000000000000000000D /* CanvasContainerView.swift */,
+				A2000000000000000000000E /* CanvasDocumentView.swift */,
+				A2000000000000000000000F /* CanvasScrollCoordinator.swift */,
+				A20000000000000000000010 /* CanvasFrameContainer.swift */,
+				CS20000000000000000000002 /* CanvasSectionView.swift */,
+				A20000000000000000000012 /* InteractionOverlay.swift */,
+				A20000000000000000000017 /* ScreenshotFrameView.swift */,
+				CC20000000000000000000001 /* CanvasChip.swift */,
+				CV20000000000000000000002 /* CanvasSwitcher.swift */,
+				DS20000000000000000000001 /* DevServerPill.swift */,
+				DS20000000000000000000002 /* DevServerPillPopover.swift */,
+				PR20000000000000000000001 /* PortRebindToast.swift */,
+				C20000000000000000000003 /* CanvasSpinner.swift */,
+				F20000000000000000000002 /* InteractHintToast.swift */,
+				G20000000000000000000001 /* FloatingToolbar.swift */,
+				G20000000000000000000002 /* ZoomIndicator.swift */,
+				G20000000000000000000003 /* EmptyStateView.swift */,
+				G20000000000000000000004 /* HintCard.swift */,
+				H20000000000000000000001 /* CommandPalette.swift */,
+				H20000000000000000000003 /* CommandPaletteMarkdownPicker.swift */,
+				H20000000000000000000004 /* CommandPaletteImagePicker.swift */,
+				K20000000000000000000003 /* WorkspaceSwitcher.swift */,
+				L20000000000000000000002 /* NewServerToast.swift */,
+				O20000000000000000000002 /* MCPSetupSheet.swift */,
+				R20000000000000000000001 /* RouteSuggestionBanner.swift */,
+				V20000000000000000000002 /* MarqueeOverlayView.swift */,
+				D26E9B6FFB0479A2AC9D94F4 /* DemoWatermarkOverlay.swift */,
+				1BE7F49F93D02619D4BE1189 /* DemoModeRibbon.swift */,
+				Y20000000000000000000004 /* DemoConnectPanel.swift */,
+				Y20000000000000000000005 /* DevServerWelcomeBox.swift */,
+				Y20000000000000000000006 /* PasteModal.swift */,
+				CU20000000000000000000003 /* ClaudeUsagePill.swift */,
+				TC20000000000000000000004 /* TerminalCommandsPopover.swift */,
+				CU20000000000000000000004 /* ClaudeLoginSheet.swift */,
+				CU20000000000000000000005 /* ClaudeAccountPopover.swift */,
+				CU20000000000000000000006 /* ClaudeMenuBarLabel.swift */,
+				OA20000000000000000000003 /* OpenAIUsageMenuBar.swift */,
+				SD20000000000000000000002 /* PausedStatusCard.swift */,
+				SM20000000000000000000004 /* ShareModeWindow.swift */,
+				SM20000000000000000000005 /* ShareModePill.swift */,
+				SM20000000000000000000006 /* ShareModeActionCluster.swift */,
+				SM20000000000000000000007 /* RecipientPreviewCard.swift */,
+				SM20000000000000000000008 /* PostExitShareChip.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* CanvasCamera.swift */,
+				A20000000000000000000006 /* DocumentModel.swift */,
+				A20000000000000000000007 /* RouteFrame.swift */,
+				X20000000000000000000001 /* MarkdownFrame.swift */,
+				Y20000000000000000000001 /* ImageFrame.swift */,
+				H20000000000000000000002 /* CommandPaletteState.swift */,
+				TC20000000000000000000001 /* TerminalCommand.swift */,
+				J20000000000000000000001 /* CanvasState.swift */,
+				K20000000000000000000002 /* WorkspaceSwitcherState.swift */,
+				O20000000000000000000001 /* MCPConnectionState.swift */,
+				C3A1BED9997B7D0DEBD74420 /* OnboardingCardState.swift */,
+				Y20000000000000000000008 /* OnboardingPasteString.swift */,
+				SB20000000000000000000001 /* ServerBinding.swift */,
+				CV20000000000000000000001 /* Canvas.swift */,
+				CS20000000000000000000001 /* CanvasSection.swift */,
+				ST20000000000000000000001 /* StylingConfig.swift */,
+				ST20000000000000000000002 /* FrameAnchor.swift */,
+				SM20000000000000000000001 /* ShareDraft.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000008 /* InteractionRouter.swift */,
+				V20000000000000000000001 /* InteractionRouter+Selection.swift */,
+				A20000000000000000000009 /* TileLifecycle.swift */,
+				A20000000000000000000013 /* EventInterceptor.swift */,
+				A20000000000000000000016 /* ScreenshotService.swift */,
+				X20000000000000000000002 /* MarkdownRenderer.swift */,
+				X20000000000000000000005 /* MarkdownTileManager.swift */,
+				MH20000000000000000000001 /* MarkdownPathHealer.swift */,
+				B20000000000000000000002 /* HTTPAPIServer.swift */,
+				B20000000000000000000003 /* CanvasManager.swift */,
+				C20000000000000000000001 /* DevServerManager.swift */,
+				SB20000000000000000000002 /* DevServerRegistry.swift */,
+				PR20000000000000000000002 /* PortRebindMatcher.swift */,
+				D20000000000000000000001 /* RouteDiscovery.swift */,
+				N40000000000000000000001 /* RouteAdapters */,
+				E20000000000000000000001 /* FileWatcher.swift */,
+				U20000000000000000000001 /* WorkspaceFileIndex.swift */,
+				F20000000000000000000001 /* InteractHintCoordinator.swift */,
+				J20000000000000000000002 /* SessionPersistence.swift */,
+				K20000000000000000000001 /* PortScanner.swift */,
+				K20000000000000000000004 /* PortProbe.swift */,
+				L20000000000000000000001 /* NewServerDetector.swift */,
+				M20000000000000000000001 /* FileLogger.swift */,
+				P20000000000000000000001 /* UpdaterManager.swift */,
+				OS10000000000000000000002 /* BuildPolicy.swift */,
+				W20000000000000000000001 /* AnalyticsService.swift */,
+				P20000000000000000000003 /* CrashReporter.swift */,
+				Y20000000000000000000002 /* PasteboardService.swift */,
+				Y20000000000000000000003 /* MCPActivityDetector.swift */,
+				CU20000000000000000000001 /* ClaudeAuth.swift */,
+				CU20000000000000000000007 /* ClaudeAccountsManager.swift */,
+				TC20000000000000000000002 /* TerminalCommandsStore.swift */,
+				CU20000000000000000000002 /* ClaudeUsageService.swift */,
+				OA20000000000000000000001 /* CodexAppServerClient.swift */,
+				OA20000000000000000000002 /* OpenAIUsageService.swift */,
+				SD20000000000000000000001 /* ReloadStormDetector.swift */,
+				ST20000000000000000000003 /* PresetManager.swift */,
+				ST20000000000000000000004 /* CanvasStylingRenderer.swift */,
+				ST20000000000000000000005 /* FrameChromeRenderer.swift */,
+				SC20000000000000000000001 /* ScreenshotCache.swift */,
+				SM20000000000000000000002 /* CaptureOrchestrator.swift */,
+				SM20000000000000000000003 /* ShareModeCoordinator.swift */,
+				SU20000000000000000000001 /* ShareService.swift */,
+				SU20000000000000000000002 /* ShareUploadOrchestrator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000C /* DesignCanvas.app */,
+				T20000000000000000000010 /* DesignCanvasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		N40000000000000000000001 /* RouteAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				N20000000000000000000001 /* RoutePathHelpers.swift */,
+				N20000000000000000000002 /* NextAppRouterAdapter.swift */,
+				N20000000000000000000003 /* NextPagesRouterAdapter.swift */,
+				N20000000000000000000004 /* TanStackRouterAdapter.swift */,
+				N20000000000000000000005 /* RemixRouterAdapter.swift */,
+				N20000000000000000000006 /* SvelteKitAdapter.swift */,
+				N20000000000000000000007 /* NuxtAdapter.swift */,
+				N20000000000000000000008 /* AstroAdapter.swift */,
+			);
+			path = RouteAdapters;
+			sourceTree = "<group>";
+		};
+		T40000000000000000000001 /* DesignCanvasTests */ = {
+			isa = PBXGroup;
+			children = (
+				T20000000000000000000001 /* CanvasCameraTests.swift */,
+				T20000000000000000000002 /* DocumentModelTests.swift */,
+				T20000000000000000000003 /* RouteFrameTests.swift */,
+				T20000000000000000000004 /* WorkspaceFileIndexTests.swift */,
+				MH20000000000000000000002 /* MarkdownPathHealerTests.swift */,
+				T20000000000000000000005 /* CommandPaletteStateModeTests.swift */,
+				T20000000000000000000006 /* ClaudeUsageDecoderTests.swift */,
+				OS20000000000000000000002 /* BuildPolicyTests.swift */,
+				OA20000000000000000000004 /* OpenAIUsageTests.swift */,
+				2EE5D1F317E241999B9983BB /* OnboardingCardStateTests.swift */,
+				Y20000000000000000000007 /* MCPActivityDetectorTests.swift */,
+			);
+			path = DesignCanvasTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* DesignCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "DesignCanvas" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A60000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignCanvas;
+			packageProductDependencies = (
+				B30000000000000000000001 /* Swifter */,
+				S30000000000000000000001 /* Sparkle */,
+			);
+			productName = DesignCanvas;
+			productReference = A2000000000000000000000C /* DesignCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		T50000000000000000000001 /* DesignCanvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = T70000000000000000000001 /* Build configuration list for PBXNativeTarget "DesignCanvasTests" */;
+			buildPhases = (
+				T60000000000000000000001 /* Sources */,
+				T60000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				T90000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = DesignCanvasTests;
+			productName = DesignCanvasTests;
+			productReference = T20000000000000000000010 /* DesignCanvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "DesignCanvas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			packageReferences = (
+				B20000000000000000000001 /* XCRemoteSwiftPackageReference "swifter" */,
+				S20000000000000000000001 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			productRefGroup = A40000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* DesignCanvas */,
+				T50000000000000000000001 /* DesignCanvasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				P10000000000000000000002 /* Assets.xcassets in Resources */,
+				Q10000000000000000000001 /* DemoScreenshots in Resources */,
+				X10000000000000000000003 /* MarkdownRenderer in Resources */,
+				OS30000000000000000000001 /* ThirdPartyNotices.txt in Resources */,
+				ST10000000000000000000007 /* StylingPresets.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* DesignCanvasApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* WebViewCoordinator.swift in Sources */,
+				A10000000000000000000004 /* WebViewWrapper.swift in Sources */,
+				A10000000000000000000005 /* CanvasCamera.swift in Sources */,
+				A10000000000000000000006 /* DocumentModel.swift in Sources */,
+				A10000000000000000000007 /* RouteFrame.swift in Sources */,
+				X10000000000000000000001 /* MarkdownFrame.swift in Sources */,
+				Y10000000000000000000001 /* ImageFrame.swift in Sources */,
+				A10000000000000000000008 /* InteractionRouter.swift in Sources */,
+				A10000000000000000000009 /* TileLifecycle.swift in Sources */,
+				A1000000000000000000000B /* CanvasContainerView.swift in Sources */,
+				A1000000000000000000000C /* CanvasDocumentView.swift in Sources */,
+				A1000000000000000000000D /* CanvasScrollCoordinator.swift in Sources */,
+				A1000000000000000000000E /* CanvasFrameContainer.swift in Sources */,
+				A1000000000000000000000F /* WebKitConfig.swift in Sources */,
+				A10000000000000000000010 /* InteractionOverlay.swift in Sources */,
+				A10000000000000000000011 /* EventInterceptor.swift in Sources */,
+				A10000000000000000000012 /* FrameMetricsHandler.swift in Sources */,
+				A10000000000000000000013 /* FrameContextMenu.swift in Sources */,
+				Z10000000000000000000001 /* ImageDimensions.swift in Sources */,
+				A10000000000000000000014 /* ScreenshotService.swift in Sources */,
+				X10000000000000000000002 /* MarkdownRenderer.swift in Sources */,
+				X10000000000000000000005 /* MarkdownTileManager.swift in Sources */,
+				MH10000000000000000000001 /* MarkdownPathHealer.swift in Sources */,
+				A10000000000000000000015 /* ScreenshotFrameView.swift in Sources */,
+				B10000000000000000000002 /* HTTPAPIServer.swift in Sources */,
+				B10000000000000000000003 /* CanvasManager.swift in Sources */,
+				C10000000000000000000001 /* DevServerManager.swift in Sources */,
+				CC10000000000000000000001 /* CanvasChip.swift in Sources */,
+				DS10000000000000000000001 /* DevServerPill.swift in Sources */,
+				DS10000000000000000000002 /* DevServerPillPopover.swift in Sources */,
+				SB10000000000000000000001 /* ServerBinding.swift in Sources */,
+				SB10000000000000000000002 /* DevServerRegistry.swift in Sources */,
+				PR10000000000000000000001 /* PortRebindToast.swift in Sources */,
+				PR10000000000000000000002 /* PortRebindMatcher.swift in Sources */,
+				CV10000000000000000000001 /* Canvas.swift in Sources */,
+				CV10000000000000000000002 /* CanvasSwitcher.swift in Sources */,
+				CS10000000000000000000001 /* CanvasSection.swift in Sources */,
+				CS10000000000000000000002 /* CanvasSectionView.swift in Sources */,
+				D10000000000000000000001 /* RouteDiscovery.swift in Sources */,
+				E10000000000000000000001 /* FileWatcher.swift in Sources */,
+				F10000000000000000000001 /* InteractHintCoordinator.swift in Sources */,
+				F10000000000000000000002 /* InteractHintToast.swift in Sources */,
+				C10000000000000000000003 /* CanvasSpinner.swift in Sources */,
+				G10000000000000000000001 /* FloatingToolbar.swift in Sources */,
+				G10000000000000000000002 /* ZoomIndicator.swift in Sources */,
+				G10000000000000000000003 /* EmptyStateView.swift in Sources */,
+				G10000000000000000000004 /* HintCard.swift in Sources */,
+				H10000000000000000000001 /* CommandPalette.swift in Sources */,
+				H10000000000000000000002 /* CommandPaletteState.swift in Sources */,
+				TC10000000000000000000001 /* TerminalCommand.swift in Sources */,
+				TC10000000000000000000002 /* TerminalCommandsStore.swift in Sources */,
+				TC10000000000000000000004 /* TerminalCommandsPopover.swift in Sources */,
+				H10000000000000000000003 /* CommandPaletteMarkdownPicker.swift in Sources */,
+				H10000000000000000000004 /* CommandPaletteImagePicker.swift in Sources */,
+				U10000000000000000000001 /* WorkspaceFileIndex.swift in Sources */,
+				J10000000000000000000001 /* CanvasState.swift in Sources */,
+				J10000000000000000000002 /* SessionPersistence.swift in Sources */,
+				K10000000000000000000001 /* PortScanner.swift in Sources */,
+				K10000000000000000000004 /* PortProbe.swift in Sources */,
+				K10000000000000000000002 /* WorkspaceSwitcherState.swift in Sources */,
+				K10000000000000000000003 /* WorkspaceSwitcher.swift in Sources */,
+				L10000000000000000000001 /* NewServerDetector.swift in Sources */,
+				L10000000000000000000002 /* NewServerToast.swift in Sources */,
+				R10000000000000000000001 /* RouteSuggestionBanner.swift in Sources */,
+				V10000000000000000000001 /* InteractionRouter+Selection.swift in Sources */,
+				V10000000000000000000002 /* MarqueeOverlayView.swift in Sources */,
+				M10000000000000000000001 /* FileLogger.swift in Sources */,
+				N10000000000000000000001 /* RoutePathHelpers.swift in Sources */,
+				N10000000000000000000002 /* NextAppRouterAdapter.swift in Sources */,
+				N10000000000000000000003 /* NextPagesRouterAdapter.swift in Sources */,
+				N10000000000000000000004 /* TanStackRouterAdapter.swift in Sources */,
+				N10000000000000000000005 /* RemixRouterAdapter.swift in Sources */,
+				N10000000000000000000006 /* SvelteKitAdapter.swift in Sources */,
+				N10000000000000000000007 /* NuxtAdapter.swift in Sources */,
+				N10000000000000000000008 /* AstroAdapter.swift in Sources */,
+				O10000000000000000000001 /* MCPConnectionState.swift in Sources */,
+				O10000000000000000000002 /* MCPSetupSheet.swift in Sources */,
+				P10000000000000000000001 /* UpdaterManager.swift in Sources */,
+				OS10000000000000000000001 /* BuildPolicy.swift in Sources */,
+				W10000000000000000000001 /* AnalyticsService.swift in Sources */,
+				P10000000000000000000003 /* CrashReporter.swift in Sources */,
+				354C65A708EF1276ACEBFBF2 /* OnboardingCardState.swift in Sources */,
+				D86BF11BBDAE71167A444F9B /* DemoWatermarkOverlay.swift in Sources */,
+				63ED553FDF99881980CE97C3 /* DemoModeRibbon.swift in Sources */,
+				Y10000000000000000000008 /* OnboardingPasteString.swift in Sources */,
+				Y10000000000000000000002 /* PasteboardService.swift in Sources */,
+				Y10000000000000000000003 /* MCPActivityDetector.swift in Sources */,
+				Y10000000000000000000004 /* DemoConnectPanel.swift in Sources */,
+				Y10000000000000000000005 /* DevServerWelcomeBox.swift in Sources */,
+				Y10000000000000000000006 /* PasteModal.swift in Sources */,
+				CU10000000000000000000001 /* ClaudeAuth.swift in Sources */,
+				CU10000000000000000000007 /* ClaudeAccountsManager.swift in Sources */,
+				CU10000000000000000000002 /* ClaudeUsageService.swift in Sources */,
+				CU10000000000000000000003 /* ClaudeUsagePill.swift in Sources */,
+				CU10000000000000000000004 /* ClaudeLoginSheet.swift in Sources */,
+				CU10000000000000000000005 /* ClaudeAccountPopover.swift in Sources */,
+				CU10000000000000000000006 /* ClaudeMenuBarLabel.swift in Sources */,
+				OA10000000000000000000001 /* CodexAppServerClient.swift in Sources */,
+				OA10000000000000000000002 /* OpenAIUsageService.swift in Sources */,
+				OA10000000000000000000003 /* OpenAIUsageMenuBar.swift in Sources */,
+				SD10000000000000000000001 /* ReloadStormDetector.swift in Sources */,
+				ST10000000000000000000001 /* StylingConfig.swift in Sources */,
+				ST10000000000000000000002 /* FrameAnchor.swift in Sources */,
+				ST10000000000000000000003 /* PresetManager.swift in Sources */,
+				ST10000000000000000000004 /* CanvasStylingRenderer.swift in Sources */,
+				ST10000000000000000000005 /* FrameChromeRenderer.swift in Sources */,
+				ST10000000000000000000006 /* StylingPresets.swift in Sources */,
+				SC10000000000000000000001 /* ScreenshotCache.swift in Sources */,
+				SM10000000000000000000001 /* ShareDraft.swift in Sources */,
+				SM10000000000000000000002 /* CaptureOrchestrator.swift in Sources */,
+				SM10000000000000000000003 /* ShareModeCoordinator.swift in Sources */,
+				SM10000000000000000000004 /* ShareModeWindow.swift in Sources */,
+				SM10000000000000000000005 /* ShareModePill.swift in Sources */,
+				SM10000000000000000000006 /* ShareModeActionCluster.swift in Sources */,
+				SM10000000000000000000007 /* RecipientPreviewCard.swift in Sources */,
+				SM10000000000000000000008 /* PostExitShareChip.swift in Sources */,
+				SU10000000000000000000001 /* ShareService.swift in Sources */,
+				SU10000000000000000000002 /* ShareUploadOrchestrator.swift in Sources */,
+				SD10000000000000000000002 /* PausedStatusCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		T60000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				T10000000000000000000001 /* CanvasCameraTests.swift in Sources */,
+				T10000000000000000000002 /* DocumentModelTests.swift in Sources */,
+				T10000000000000000000003 /* RouteFrameTests.swift in Sources */,
+				T10000000000000000000004 /* WorkspaceFileIndexTests.swift in Sources */,
+				MH10000000000000000000002 /* MarkdownPathHealerTests.swift in Sources */,
+				T10000000000000000000005 /* CommandPaletteStateModeTests.swift in Sources */,
+				T10000000000000000000006 /* ClaudeUsageDecoderTests.swift in Sources */,
+				OS20000000000000000000001 /* BuildPolicyTests.swift in Sources */,
+				OA10000000000000000000004 /* OpenAIUsageTests.swift in Sources */,
+				8038E69DF1E6223F717EA905 /* OnboardingCardStateTests.swift in Sources */,
+				Y10000000000000000000007 /* MCPActivityDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		T90000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50000000000000000000001 /* DesignCanvas */;
+			targetProxy = T90000000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCanvas/DesignCanvas.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCanvas/Info.plist;
+				DC_OFFICIAL_DISTRIBUTION = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = "Design Canvas (Local)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Charlie Ellington. MIT licensed.";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.6.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.designcanvas.app.local;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCanvas/DesignCanvas.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCanvas/Info.plist;
+				DC_OFFICIAL_DISTRIBUTION = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = "Design Canvas (Local)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Charlie Ellington. MIT licensed.";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.6.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.designcanvas.app.local;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		T80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.6.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.designcanvas.app.local.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignCanvas.app/Contents/MacOS/DesignCanvas";
+			};
+			name = Debug;
+		};
+		T80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.6.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.designcanvas.app.local.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignCanvas.app/Contents/MacOS/DesignCanvas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "DesignCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "DesignCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		T70000000000000000000001 /* Build configuration list for PBXNativeTarget "DesignCanvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T80000000000000000000001 /* Debug */,
+				T80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B20000000000000000000001 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter";
+			requirement = {
+				kind = revision;
+				revision = 1e4f51c92d7ca486242d8bf0722b99de2c3531aa;
+			};
+		};
+		S20000000000000000000001 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = exactVersion;
+				version = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B30000000000000000000001 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20000000000000000000001 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		S30000000000000000000001 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = S20000000000000000000001 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A50000000000000000000002 /* Project object */;
+}

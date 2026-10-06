@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "presetsFinalised": false,
+  "presets": [
+    {
+      "id": "dark",
+      "displayName": "Dark",
+      "intendedMood": "Professional, developer-oriented",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "dark",
+        "background": {
+          "type": "gradient",
+          "gradientFrom": "#0f1117",
+          "gradientTo": "#191c25",
+          "gradientAngle": 180
+        },
+        "backgroundBlur": 0,
+        "corners": 12,
+        "padding": {
+          "size": 8,
+          "color": "#000000",
+          "opacity": 0.4
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.6,
+          "directional": false,
+          "distance": 8,
+          "angle": 180,
+          "blur": 24
+        },
+        "frame": "browser"
+      }
+    },
+    {
+      "id": "ocean",
+      "displayName": "Ocean",
+      "intendedMood": "Calm, depth",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "ocean",
+        "background": {
+          "type": "gradient",
+          "gradientFrom": "#0f4c75",
+          "gradientTo": "#3282b8",
+          "gradientAngle": 135
+        },
+        "backgroundBlur": 0,
+        "corners": 16,
+        "padding": {
+          "size": 12,
+          "color": "#000000",
+          "opacity": 0.3
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.5,
+          "directional": false,
+          "distance": 8,
+          "angle": 180,
+          "blur": 28
+        },
+        "frame": "browser"
+      }
+    },
+    {
+      "id": "sunset",
+      "displayName": "Sunset",
+      "intendedMood": "Warm, creative",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "sunset",
+        "background": {
+          "type": "gradient",
+          "gradientFrom": "#ff7e5f",
+          "gradientTo": "#feb47b",
+          "gradientAngle": 180
+        },
+        "backgroundBlur": 0,
+        "corners": 16,
+        "padding": {
+          "size": 12,
+          "color": "#000000",
+          "opacity": 0.3
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.5,
+          "directional": false,
+          "distance": 8,
+          "angle": 180,
+          "blur": 24
+        },
+        "frame": "browser"
+      }
+    },
+    {
+      "id": "clean",
+      "displayName": "Clean",
+      "intendedMood": "Minimal, presentation-ready",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "clean",
+        "background": {
+          "type": "color",
+          "color": "#f5f5f7"
+        },
+        "backgroundBlur": 0,
+        "corners": 12,
+        "padding": {
+          "size": 16,
+          "color": "#ffffff",
+          "opacity": 0
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.3,
+          "directional": false,
+          "distance": 6,
+          "angle": 180,
+          "blur": 20
+        },
+        "frame": "browser"
+      }
+    },
+    {
+      "id": "aurora",
+      "displayName": "Aurora",
+      "intendedMood": "Bold, eye-catching",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "aurora",
+        "background": {
+          "type": "gradient",
+          "gradientFrom": "#7c3aed",
+          "gradientTo": "#14b8a6",
+          "gradientAngle": 135
+        },
+        "backgroundBlur": 0,
+        "corners": 20,
+        "padding": {
+          "size": 12,
+          "color": "#000000",
+          "opacity": 0.3
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.7,
+          "directional": false,
+          "distance": 12,
+          "angle": 180,
+          "blur": 32
+        },
+        "frame": "device"
+      }
+    },
+    {
+      "id": "slate",
+      "displayName": "Slate",
+      "intendedMood": "Corporate, understated",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "slate",
+        "background": {
+          "type": "gradient",
+          "gradientFrom": "#475569",
+          "gradientTo": "#334155",
+          "gradientAngle": 180
+        },
+        "backgroundBlur": 0,
+        "corners": 8,
+        "padding": {
+          "size": 8,
+          "color": "#000000",
+          "opacity": 0.3
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.4,
+          "directional": false,
+          "distance": 6,
+          "angle": 180,
+          "blur": 20
+        },
+        "frame": "browser"
+      }
+    },
+    {
+      "id": "mono",
+      "displayName": "Mono",
+      "intendedMood": "High contrast, graphic",
+      "status": "placeholder",
+      "config": {
+        "schemaVersion": 1,
+        "preset": "mono",
+        "background": {
+          "type": "color",
+          "color": "#000000"
+        },
+        "backgroundBlur": 0,
+        "corners": 4,
+        "padding": {
+          "size": 0,
+          "color": "#000000",
+          "opacity": 0
+        },
+        "shadow": {
+          "enabled": true,
+          "intensity": 0.8,
+          "directional": true,
+          "distance": 16,
+          "angle": 180,
+          "blur": 40
+        },
+        "frame": "none"
+      }
+    }
+  ],
+  "gradients": {
+    "schemaVersion": 1,
+    "status": "placeholder",
+    "gradients": [
+      {
+        "id": "midnight",
+        "from": "#1a1a2e",
+        "to": "#16213e",
+        "angle": 180,
+        "bucket": "cool"
+      },
+      {
+        "id": "ocean-dawn",
+        "from": "#0f4c75",
+        "to": "#3282b8",
+        "angle": 135,
+        "bucket": "cool"
+      },
+      {
+        "id": "forest",
+        "from": "#134e5e",
+        "to": "#71b280",
+        "angle": 180,
+        "bucket": "cool"
+      },
+      {
+        "id": "twilight",
+        "from": "#2b5876",
+        "to": "#4e4376",
+        "angle": 180,
+        "bucket": "cool"
+      },
+      {
+        "id": "sunset-glow",
+        "from": "#ff7e5f",
+        "to": "#feb47b",
+        "angle": 180,
+        "bucket": "warm"
+      },
+      {
+        "id": "berry",
+        "from": "#ff5e62",
+        "to": "#ff9966",
+        "angle": 135,
+        "bucket": "warm"
+      },
+      {
+        "id": "coral",
+        "from": "#fc4a1a",
+        "to": "#f7b733",
+        "angle": 180,
+        "bucket": "warm"
+      },
+      {
+        "id": "ember",
+        "from": "#f12711",
+        "to": "#f5af19",
+        "angle": 180,
+        "bucket": "warm"
+      },
+      {
+        "id": "mono-gray",
+        "from": "#232526",
+        "to": "#414345",
+        "angle": 180,
+        "bucket": "neutral"
+      },
+      {
+        "id": "silver",
+        "from": "#bdc3c7",
+        "to": "#2c3e50",
+        "angle": 180,
+        "bucket": "neutral"
+      },
+      {
+        "id": "graphite",
+        "from": "#1f1c2c",
+        "to": "#928dab",
+        "angle": 180,
+        "bucket": "neutral"
+      },
+      {
+        "id": "mist",
+        "from": "#757f9a",
+        "to": "#d7dde8",
+        "angle": 180,
+        "bucket": "neutral"
+      },
+      {
+        "id": "aurora-pop",
+        "from": "#7c3aed",
+        "to": "#14b8a6",
+        "angle": 135,
+        "bucket": "bold"
+      },
+      {
+        "id": "magenta-blue",
+        "from": "#c471ed",
+        "to": "#12c2e9",
+        "angle": 135,
+        "bucket": "bold"
+      },
+      {
+        "id": "electric",
+        "from": "#ee0979",
+        "to": "#ff6a00",
+        "angle": 135,
+        "bucket": "bold"
+      },
+      {
+        "id": "prism",
+        "from": "#00c9ff",
+        "to": "#92fe9d",
+        "angle": 180,
+        "bucket": "bold"
+      }
+    ]
+  },
+  "defaultShadow": {
+    "schemaVersion": 1,
+    "status": "placeholder",
+    "defaultShadow": {
+      "enabled": true,
+      "intensity": 0.5,
+      "directional": false,
+      "distance": 8,
+      "angle": 180,
+      "blur": 25,
+      "color": "#000000"
+    }
+  },
+  "wallpapers": {
+    "schemaVersion": 1,
+    "status": "empty",
+    "wallpapers": []
+  },
+  "frameChrome": {
+    "schemaVersion": 1,
+    "status": "final",
+    "frameChrome": {
+      "none": {
+        "description": "No chrome. Screenshot rendered directly inside matte (padding + corners + shadow)."
+      },
+      "browser": {
+        "titlebarHeight": 28,
+        "titlebarBackground": "#1f2128",
+        "titlebarBorder": "#2a2d36",
+        "trafficLights": [
+          "#FF5F57",
+          "#FEBC2E",
+          "#28C841"
+        ],
+        "trafficLightSize": 12,
+        "trafficLightGap": 8,
+        "trafficLightInset": 12,
+        "addressBarHeight": 16,
+        "addressBarRadius": 4,
+        "addressBarBackground": "#2c2f38",
+        "addressBarMaxWidth": 360,
+        "addressBarWidthRatio": 0.6,
+        "addressBarFont": "11px SF Mono",
+        "addressBarTextColor": "#9ba0aa",
+        "addressBarContentByFrameKind": {
+          "route": "routePath",
+          "markdown": "markdown://${displayName}",
+          "image": "image://${displayName}"
+        },
+        "screenshotCornerHandling": "screenshot inherits StylingConfig.corners on BOTTOM only; top corners square (flush against titlebar)"
+      },
+      "device": {
+        "thresholdAspectRatio": 1.5,
+        "iphone": {
+          "bezelTop": 12,
+          "bezelBottom": 12,
+          "bezelLeft": 12,
+          "bezelRight": 12,
+          "bezelColor": "#0a0a0a",
+          "outerCornerRadius": 48,
+          "notchWidth": 28,
+          "notchHeight": 8
+        },
+        "mac": {
+          "bezelTop": 24,
+          "bezelBottom": 24,
+          "bezelLeft": 24,
+          "bezelRight": 24,
+          "bezelColor": "#0a0a0a",
+          "outerCornerRadius": 16,
+          "hingeHeight": 4,
+          "hingeWidthRatio": 0.6,
+          "hingeColor": "#1a1a1a"
+        }
+      },
+      "defaultEditorValue": "none"
+    }
+  },
+  "sliderSteps": {
+    "schemaVersion": 1,
+    "status": "final",
+    "sliderSteps": {
+      "corners": 1,
+      "padding.size": 1,
+      "padding.opacity": 0.05,
+      "backgroundBlur": 1,
+      "shadow.intensity": 0.05,
+      "shadow.distance": 1,
+      "shadow.angle": 5,
+      "shadow.blur": 1,
+      "gradientAngle": 5
+    }
+  }
+}

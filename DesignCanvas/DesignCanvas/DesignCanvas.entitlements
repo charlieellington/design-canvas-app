@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Network: connect to localhost dev servers (ports 3000-8000) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<!-- Network: run HTTP API server on port 7420 -->
+	<key>com.apple.security.network.server</key>
+	<true/>
+</dict>
+</plist>

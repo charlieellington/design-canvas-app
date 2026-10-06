@@ -1,0 +1,49 @@
+{
+  "name": "design-canvas-mcp",
+  "version": "0.6.0",
+  "description": "MCP server for Design Canvas \u2014 control the infinite canvas from AI coding agents",
+  "type": "module",
+  "bin": {
+    "design-canvas-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "design-canvas",
+    "design",
+    "canvas",
+    "developer-tools"
+  ],
+  "author": "Charlie Ellington",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlieellington/design-canvas-app.git",
+    "directory": "mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/charlieellington/design-canvas-app/issues"
+  },
+  "homepage": "https://designcanvas.app",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
